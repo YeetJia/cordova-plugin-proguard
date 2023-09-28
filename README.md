@@ -1,9 +1,9 @@
-# cordova-plugin-proguard
+# @yeetjia/cordova-plugin-proguard
 
 [![NPM version][npm-image]][npm-url]
 [![npm](https://img.shields.io/npm/dm/cordova-plugin-proguard.svg)](https://www.npmjs.com/package/cordova-plugin-proguard)
 
-> Cordova plugin which activates ProGuard and minification for debug and release builds in your cordova mobile application.
+> Cordova plugin which activates ProGuard and minification for debug and release builds in your cordova mobile application. Updated for cordova-android 12 (WIP)
 
 ## What is ProGuard?
 
