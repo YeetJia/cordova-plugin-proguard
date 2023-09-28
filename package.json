@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-proguard",
-  "version": "2.2.0",
-  "description": "Cordova plugin for ProGuard",
+  "name": "@yeetjia/cordova-plugin-proguard",
+  "version": "2.2.1",
+  "description": "Cordova plugin for ProGuard for cordova-android 12",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/greybax/cordova-plugin-proguard.git"
+    "url": "git+https://github.com/YeetJia/cordova-plugin-proguard"
   },
   "keywords": [
     "proguard",
@@ -18,15 +18,15 @@
     "plugin"
   ],
   "author": {
-    "name": "Aleksandr Filatov",
-    "email": "greybax@gmail.com",
-    "url": "https://alfilatov.com"
+    "name": "Aleksandr Filatov & Tan Yi Jia",
+    "email": "tanyijia@gmail.com",
+    "url": "https://alfilatov.com & https://tanyijia.me"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/greybax/cordova-plugin-proguard/issues"
+    "url": "https://github.com/YeetJia/cordova-plugin-proguard/issues"
   },
-  "homepage": "https://github.com/greybax/cordova-plugin-proguard#readme",
+  "homepage": "https://github.com/YeetJia/cordova-plugin-proguard#readme",
   "devDependencies": {
     "jshint": "2.13.6"
   }

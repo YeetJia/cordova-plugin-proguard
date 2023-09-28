@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-proguard" version="2.2.0">
-  <name>Cordova plugin ProGuard</name>
-  <description>Activated ProGuard for Android</description>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-proguard" version="2.2.1">
+  <name>Cordova Plugin ProGuard</name>
+  <description>Disable R8 and Activate ProGuard for Android</description>
 
   <platform name="android">
     <framework src="build.gradle" custom="true" type="gradleReference" />
