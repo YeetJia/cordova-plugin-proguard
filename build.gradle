@@ -3,18 +3,11 @@ android {
   buildTypes {
     debug {
       minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'src/main/assets/www/proguard-custom.txt'
     }
     release {
       minifyEnabled false
-    }
-  }
-}
-
-proguard {
-  configurations {
-    release {
-      defaultConfiguration 'proguard-android-optimize.txt'
-      configuration 'proguard-custom.txt'
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'src/main/assets/www/proguard-custom.txt'
     }
   }
 }
