@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="@tanyijia/cordova-plugin-proguard" version="2.2.1">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="@tanyijia/cordova-plugin-proguard" version="2.2.2">
   <name>Cordova Plugin ProGuard</name>
   <description>Disable R8 and Activate ProGuard for Android</description>
 
