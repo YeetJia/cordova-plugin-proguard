@@ -1,6 +1,6 @@
 {
   "name": "@tanyijia/cordova-plugin-proguard",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "Cordova Plugin for ProGuard for Cordova-Android 12 with AGP 7+",
   "repository": {
     "type": "git",
