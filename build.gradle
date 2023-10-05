@@ -1,28 +1,25 @@
 apply plugin: 'com.guardsquare.proguard'
 
 android {
-  // Deactivate R8
   buildTypes {
     debug {
       minifyEnabled false
-      // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'src/main/assets/www/proguard-custom.txt'
     }
     release {
       minifyEnabled false
-      // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'src/main/assets/www/proguard-custom.txt'
     }
   }
 }
 
 proguard {
-   configurations {
-       release {
-           defaultConfiguration 'proguard-android-optimize.txt'
-           configuration 'src/main/assets/www/proguard-custom.txt'
-       }
-       debug {
-           defaultConfiguration 'proguard-android-debug.txt'
-           configuration 'src/main/assets/www/proguard-custom.txt'
-       }
-   }
+  configurations {
+    debug {
+      defaultConfiguration 'proguard-android-debug.txt'
+      configuration 'src/main/assets/www/proguard-custom.txt'
+    }
+    release {
+      defaultConfiguration 'proguard-android.txt'
+      configuration 'src/main/assets/www/proguard-custom.txt'
+    }
+  }
 }
