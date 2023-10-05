@@ -25,7 +25,7 @@ module.exports = function (ctx) {
   if (fs.existsSync(rootLevelBuildGradlePath)) {
     let rootBuildGradleContent = fs.readFileSync(rootLevelBuildGradlePath, "utf-8");
     const splitter = 'classpath';
-    const proguardClassPath = 'com.guardsquare:proguard-gradle:7.1.+';
+    const proguardClassPath = 'com.guardsquare:proguard-gradle:7.3.+';
 
     if (rootBuildGradleContent.indexOf(splitter) > -1) {
       if(rootBuildGradleContent.indexOf(proguardClassPath) > -1){
