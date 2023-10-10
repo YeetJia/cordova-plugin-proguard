@@ -7,6 +7,7 @@ module.exports = function (ctx) {
   const pluginDir = ctx.opts.plugin.dir;
   const targetProguardFile = path.join(pluginDir, 'proguard-custom.txt');
   const projectProguardFile = path.join(projectRoot, 'proguard-custom.txt');
+  const POST_CONFIG_TAG = 'CORDOVA PLUGIN PROGUARD';
 
   try {
     if (fs.existsSync(projectProguardFile)) {
